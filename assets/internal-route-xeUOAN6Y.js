@@ -1,0 +1,1 @@
+const s="https://loi-jeanbrun-invest.com";function i(e,r=""){const t=String(e||"").trim();if(!t||!t.startsWith("/")||t.startsWith("//")||t.includes("\\")||/%5c/i.test(t))return r;try{const n=new URL(t,s);return n.origin!==s||!n.pathname.startsWith("/")||n.pathname.includes("\\")?r:`${n.pathname}${n.search}${n.hash}`}catch{return r}}export{i as s};
