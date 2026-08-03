@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /admin/
+Disallow: /rendez-vous/gerer
+Disallow: /rendez-vous/gerer/
+Disallow: /activation-client
+Disallow: /activation-client/
+Disallow: /espace-client
+Disallow: /application-client
+Disallow: /desinscription
+
+Sitemap: https://loi-jeanbrun-invest.com/sitemap.xml

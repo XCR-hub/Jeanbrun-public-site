@@ -1,0 +1,653 @@
+{
+  "fetched_at": "2026-08-02T13:09:07.500Z",
+  "keywords": [
+    "loi jeanbrun",
+    "dispositif jeanbrun",
+    "statut du bailleur prive",
+    "bailleur prive",
+    "investissement locatif",
+    "location nue",
+    "logement locatif",
+    "logement",
+    "immobilier",
+    "loyer",
+    "loyers",
+    "irl",
+    "encadrement",
+    "fiscalite immobiliere",
+    "revenus fonciers",
+    "foncier",
+    "amortissement",
+    "deficit foncier",
+    "ptz",
+    "pret a taux zero",
+    "tva",
+    "anru",
+    "qpv",
+    "renovation energetique",
+    "aides au logement",
+    "relance logement"
+  ],
+  "coverage": {
+    "sources_total": 12,
+    "sources_ok": 11,
+    "candidates_total": 15,
+    "topics_total": 15,
+    "syntheses_total": 15
+  },
+  "sources": [
+    {
+      "name": "ANIL actualites",
+      "url": "https://www.anil.org/actualites-evenements/",
+      "role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "priority": 5,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1086,
+      "content_type": "text/html; charset=utf-8",
+      "candidates": [
+        {
+          "title": "Investissement locatif ou mise en location d'un logement vacant : simulation",
+          "url": "https://www.anil.org/outil-mise-en-location-simulation-investissement-immobilier-rendement/",
+          "type": "link",
+          "snippet": "Frais d'acquisition (dits frais de notaire) Coût d'une hypothèque Investissement locatif ou mise en location d'un logement vacant : simulation Plus value immobilière Révision de loyer img load",
+          "published_at": "",
+          "score": 11
+        },
+        {
+          "title": "Nouvelle Parole d'expert : mon propriétaire peut-il augmenter mon loyer ?",
+          "url": "https://www.anil.org/parole-expert-logement-location-bailleur-augmentation-loyer/",
+          "type": "link",
+          "snippet": "\" Nouvelle Parole d'expert : mon propriétaire peut-il augmenter mon loyer ? 28 juillet 2026 Votre bailleur vous demande de payer un loyer plus conséquent ? L'augmentation du loyer dans le parc locatif privé par un bailleur peut être normale, mais elle est soumise à certaines règles. Alors...",
+          "published_at": "2026-07-28T12:00:00.000Z",
+          "score": 10
+        },
+        {
+          "title": "Nouvelle analyse juridique : Encadrement de l’évolution des loyers en zones tendues à compter du 1er août 2026",
+          "url": "https://www.anil.org/analyse-juridique-encadrement-evolution-loyers-zones-tendues/",
+          "type": "link",
+          "snippet": "\" Nouvelle analyse juridique : Encadrement de l’évolution des loyers en zones tendues à compter du 1er août 2026 23 juillet 2026 Le décret fixant pour les zones tendues le montant maximum d'évolution des loyers d'un logement nu ou meublé en cas de relocation ou de renouvellement du bail est...",
+          "published_at": "2026-07-23T12:00:00.000Z",
+          "score": 10
+        },
+        {
+          "title": "IRL : le nouvel indice du 2eme trimestre 2026 est publié",
+          "url": "https://www.anil.org/actualites-evenements/details/irl-le-nouvel-indice-du-2eme-trimestre-2026-est-publie/",
+          "type": "link",
+          "snippet": "\" IRL : le nouvel indice du 2eme trimestre 2026 est publié 12 juillet 2026 Le dernier indice de référence des loyers (IRL) a été publié au Journal Officiel du 12 juillet 2026. Lire l'actualité",
+          "published_at": "2026-07-12T12:00:00.000Z",
+          "score": 10
+        },
+        {
+          "title": "Comment résilier le bail de ma location ?",
+          "url": "https://www.anil.org/parole-expert-logement-location/parole-expert-logement-location-resiliation-bail/",
+          "type": "link",
+          "snippet": "outils-de-calcul/frais-dacquisition-dits-frais-de-notaire/\" Frais d'acquisition Je cherche une location, mais je n’ai pas de garant Comment résilier le bail de ma location ? Ferm",
+          "published_at": "",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "name": "BOFiP RSS",
+      "url": "https://bofip.impots.gouv.fr/flux-rss",
+      "role": "Doctrine fiscale officielle et flux de publications fiscales.",
+      "priority": 5,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 410,
+      "content_type": "text/html; charset=UTF-8",
+      "candidates": [
+        {
+          "title": "Flux RSS | bofip.impots.gouv.fr",
+          "url": "https://bofip.impots.gouv.fr/flux-rss",
+          "type": "page_title",
+          "snippet": "",
+          "published_at": "",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "name": "Service-Public actualites particuliers RSS",
+      "url": "https://www.service-public.gouv.fr/abonnements/rss/actu-actualites-particuliers.rss",
+      "role": "Flux officiel des nouvelles demarches, obligations et indices utiles aux particuliers.",
+      "priority": 4,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 901,
+      "content_type": "application/rss+xml;charset=UTF-8",
+      "candidates": []
+    },
+    {
+      "name": "Service-Public logement",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "priority": 4,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1486,
+      "content_type": "text/html;charset=UTF-8",
+      "candidates": [
+        {
+          "title": "Achat ou vente d'un logement",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N23245",
+          "type": "link",
+          "snippet": "Achat ou vente d'un logement Aides financières p class=\"",
+          "published_at": "",
+          "score": 6
+        },
+        {
+          "title": "Aides et prêts pour l'amélioration et la rénovation énergétique de l'habitat",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N321",
+          "type": "link",
+          "snippet": "Aides et prêts pour l'amélioration et la rénovation énergétique de l'habitat Bail d’habitation p class=\"",
+          "published_at": "",
+          "score": 6
+        },
+        {
+          "title": "Contrat de location (bail)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N349",
+          "type": "link",
+          "snippet": "Contrat de location (bail) a class",
+          "published_at": "",
+          "score": 4
+        },
+        {
+          "title": "Obligations du bailleur",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31059",
+          "type": "link",
+          "snippet": "Obligations du bailleur a",
+          "published_at": "",
+          "score": 4
+        }
+      ]
+    },
+    {
+      "name": "Ministere logement actualites",
+      "url": "https://www.ecologie.gouv.fr/actualites",
+      "role": "Actualites publiques du ministere couvrant logement, amenagement et politiques territoriales.",
+      "priority": 3,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1316,
+      "content_type": "text/html; charset=UTF-8",
+      "candidates": []
+    },
+    {
+      "name": "Ministere logement presse",
+      "url": "https://www.ecologie.gouv.fr/presse",
+      "role": "Communiques et dossiers de presse officiels, a filtrer fortement pour ne garder que le logement.",
+      "priority": 2,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1012,
+      "content_type": "text/html; charset=UTF-8",
+      "candidates": []
+    },
+    {
+      "name": "Ministere relance logement",
+      "url": "https://www.ecologie.gouv.fr/dossiers/plan-relance-logement",
+      "role": "Dossier officiel sur la relance logement et le volet fiscal Jeanbrun.",
+      "priority": 5,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1174,
+      "content_type": "text/html; charset=UTF-8",
+      "candidates": [
+        {
+          "title": "Les indicateurs du plan Relance logement",
+          "url": "https://www.info.gouv.fr/grand-dossier/relance-logement",
+          "type": "link",
+          "snippet": "_suite_dsfr:grid_row\" Les indicateurs du plan Relance logement Suivez l’avancement du plan avec les autorisations de constructions sur le site du Gouvernement. =\"http://www.w3.org/2000/ \" height",
+          "published_at": "",
+          "score": 7
+        },
+        {
+          "title": "Investissement locatif : quels sont les dispositifs ?",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35782",
+          "type": "link",
+          "snippet": "ance à horizon 2030, 2040 et 2050 - nouvelle fenêtre\" Les besoins en logements en France à horizon 2030, 2040 et 2050 Investissement locatif : quels sont les dispositifs ? Retour en haut de page /a",
+          "published_at": "",
+          "score": 7
+        }
+      ]
+    },
+    {
+      "name": "INSEE IRL serie officielle",
+      "url": "https://www.insee.fr/fr/statistiques/serie/001515333%2B001515334",
+      "role": "Serie officielle de l indice de reference des loyers utile au pilotage des baux.",
+      "priority": 5,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1143,
+      "content_type": "text/html;charset=UTF-8",
+      "candidates": []
+    },
+    {
+      "name": "Notaires de France actualites",
+      "url": "https://www.notaires.fr/fr/actualites",
+      "role": "Conjoncture immobiliere, fiscalite patrimoniale et tendances notariales.",
+      "priority": 3,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 2012,
+      "content_type": "text/html; charset=UTF-8",
+      "candidates": [
+        {
+          "title": "Aides à la rénovation énergétique",
+          "url": "https://www.notaires.fr/fr/jenergise_mon_logement",
+          "type": "link",
+          "snippet": "\"/fr/construire-et-amenager-au-quotidien\" Construire et aménager au quotidien Aides à la rénovation énergétique Actualités de l'immobilier div class=\"menu_link_",
+          "published_at": "",
+          "score": 7
+        },
+        {
+          "title": "Parcours d'achat et de vente d'un bien immobilier",
+          "url": "https://www.notaires.fr/fr/marche-de-limmobilier-parcours-dachat-et-de-vente",
+          "type": "link",
+          "snippet": "enu-link-contentmain view-mode-default menu-dropdown menu-dropdown-1 menu-type-default\" Parcours d'achat et de vente d'un bien immobilier Acheter un bien immobilier",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Calculer vos frais d'achat Immobilier",
+          "url": "https://paris.notaires.fr/fr/outils-et-services/calcul-de-frais-d-achat",
+          "type": "link",
+          "snippet": "s Calculer vos frais d'achat Immobilier Rechercher un testament use href=\"/themes/custom/not/assets/img/i",
+          "published_at": "",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "name": "economie.gouv.fr PTZ",
+      "url": "https://www.economie.gouv.fr/particuliers/emprunter-et-sassurer/pret-taux-zero-ptz-tout-ce-quil-faut-savoir",
+      "role": "Aides nationales et dispositifs de financement.",
+      "priority": 3,
+      "ok": false,
+      "status": 403,
+      "elapsed_ms": 929,
+      "content_type": "text/html; charset=UTF-8",
+      "candidates": []
+    },
+    {
+      "name": "LCL Banque Privee Jeanbrun",
+      "url": "https://www.lcl.fr/banque-privee/actualites/juridique-fiscalite/un-nouveau-statut-du-bailleur-prive",
+      "role": "Analyse patrimoniale du statut du bailleur prive.",
+      "priority": 2,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1821,
+      "content_type": "text/html;charset=UTF-8",
+      "candidates": []
+    },
+    {
+      "name": "Cerfrance Jeanbrun",
+      "url": "https://cerfrancebfc.cerfrance.fr/pages/nouveau-statut-de-bailleur-prive-dispositif-jeanbrun",
+      "role": "Analyse fiscale operationnelle du dispositif Jeanbrun.",
+      "priority": 2,
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 1605,
+      "content_type": "text/html; charset=UTF-8",
+      "candidates": []
+    }
+  ],
+  "topics": [
+    {
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "title": "Investissement locatif ou mise en location d'un logement vacant : simulation",
+      "url": "https://www.anil.org/outil-mise-en-location-simulation-investissement-immobilier-rendement/",
+      "snippet": "Frais d'acquisition (dits frais de notaire) Coût d'une hypothèque Investissement locatif ou mise en location d'un logement vacant : simulation Plus value immobilière Révision de loyer img load",
+      "published_at": "",
+      "type": "link",
+      "score": 11
+    },
+    {
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "title": "Nouvelle Parole d'expert : mon propriétaire peut-il augmenter mon loyer ?",
+      "url": "https://www.anil.org/parole-expert-logement-location-bailleur-augmentation-loyer/",
+      "snippet": "\" Nouvelle Parole d'expert : mon propriétaire peut-il augmenter mon loyer ? 28 juillet 2026 Votre bailleur vous demande de payer un loyer plus conséquent ? L'augmentation du loyer dans le parc locatif privé par un bailleur peut être normale, mais elle est soumise à certaines règles. Alors...",
+      "published_at": "2026-07-28T12:00:00.000Z",
+      "type": "link",
+      "score": 10
+    },
+    {
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "title": "Nouvelle analyse juridique : Encadrement de l’évolution des loyers en zones tendues à compter du 1er août 2026",
+      "url": "https://www.anil.org/analyse-juridique-encadrement-evolution-loyers-zones-tendues/",
+      "snippet": "\" Nouvelle analyse juridique : Encadrement de l’évolution des loyers en zones tendues à compter du 1er août 2026 23 juillet 2026 Le décret fixant pour les zones tendues le montant maximum d'évolution des loyers d'un logement nu ou meublé en cas de relocation ou de renouvellement du bail est...",
+      "published_at": "2026-07-23T12:00:00.000Z",
+      "type": "link",
+      "score": 10
+    },
+    {
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "title": "IRL : le nouvel indice du 2eme trimestre 2026 est publié",
+      "url": "https://www.anil.org/actualites-evenements/details/irl-le-nouvel-indice-du-2eme-trimestre-2026-est-publie/",
+      "snippet": "\" IRL : le nouvel indice du 2eme trimestre 2026 est publié 12 juillet 2026 Le dernier indice de référence des loyers (IRL) a été publié au Journal Officiel du 12 juillet 2026. Lire l'actualité",
+      "published_at": "2026-07-12T12:00:00.000Z",
+      "type": "link",
+      "score": 10
+    },
+    {
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "title": "Comment résilier le bail de ma location ?",
+      "url": "https://www.anil.org/parole-expert-logement-location/parole-expert-logement-location-resiliation-bail/",
+      "snippet": "outils-de-calcul/frais-dacquisition-dits-frais-de-notaire/\" Frais d'acquisition Je cherche une location, mais je n’ai pas de garant Comment résilier le bail de ma location ? Ferm",
+      "published_at": "",
+      "type": "link",
+      "score": 7
+    },
+    {
+      "source": "Ministere relance logement",
+      "source_role": "Dossier officiel sur la relance logement et le volet fiscal Jeanbrun.",
+      "source_url": "https://www.ecologie.gouv.fr/dossiers/plan-relance-logement",
+      "title": "Les indicateurs du plan Relance logement",
+      "url": "https://www.info.gouv.fr/grand-dossier/relance-logement",
+      "snippet": "_suite_dsfr:grid_row\" Les indicateurs du plan Relance logement Suivez l’avancement du plan avec les autorisations de constructions sur le site du Gouvernement. =\"http://www.w3.org/2000/ \" height",
+      "published_at": "",
+      "type": "link",
+      "score": 7
+    },
+    {
+      "source": "Ministere relance logement",
+      "source_role": "Dossier officiel sur la relance logement et le volet fiscal Jeanbrun.",
+      "source_url": "https://www.ecologie.gouv.fr/dossiers/plan-relance-logement",
+      "title": "Investissement locatif : quels sont les dispositifs ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35782",
+      "snippet": "ance à horizon 2030, 2040 et 2050 - nouvelle fenêtre\" Les besoins en logements en France à horizon 2030, 2040 et 2050 Investissement locatif : quels sont les dispositifs ? Retour en haut de page /a",
+      "published_at": "",
+      "type": "link",
+      "score": 7
+    },
+    {
+      "source": "Notaires de France actualites",
+      "source_role": "Conjoncture immobiliere, fiscalite patrimoniale et tendances notariales.",
+      "source_url": "https://www.notaires.fr/fr/actualites",
+      "title": "Aides à la rénovation énergétique",
+      "url": "https://www.notaires.fr/fr/jenergise_mon_logement",
+      "snippet": "\"/fr/construire-et-amenager-au-quotidien\" Construire et aménager au quotidien Aides à la rénovation énergétique Actualités de l'immobilier div class=\"menu_link_",
+      "published_at": "",
+      "type": "link",
+      "score": 7
+    },
+    {
+      "source": "Service-Public logement",
+      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "title": "Achat ou vente d'un logement",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N23245",
+      "snippet": "Achat ou vente d'un logement Aides financières p class=\"",
+      "published_at": "",
+      "type": "link",
+      "score": 6
+    },
+    {
+      "source": "Service-Public logement",
+      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "title": "Aides et prêts pour l'amélioration et la rénovation énergétique de l'habitat",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N321",
+      "snippet": "Aides et prêts pour l'amélioration et la rénovation énergétique de l'habitat Bail d’habitation p class=\"",
+      "published_at": "",
+      "type": "link",
+      "score": 6
+    },
+    {
+      "source": "Notaires de France actualites",
+      "source_role": "Conjoncture immobiliere, fiscalite patrimoniale et tendances notariales.",
+      "source_url": "https://www.notaires.fr/fr/actualites",
+      "title": "Parcours d'achat et de vente d'un bien immobilier",
+      "url": "https://www.notaires.fr/fr/marche-de-limmobilier-parcours-dachat-et-de-vente",
+      "snippet": "enu-link-contentmain view-mode-default menu-dropdown menu-dropdown-1 menu-type-default\" Parcours d'achat et de vente d'un bien immobilier Acheter un bien immobilier",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Notaires de France actualites",
+      "source_role": "Conjoncture immobiliere, fiscalite patrimoniale et tendances notariales.",
+      "source_url": "https://www.notaires.fr/fr/actualites",
+      "title": "Calculer vos frais d'achat Immobilier",
+      "url": "https://paris.notaires.fr/fr/outils-et-services/calcul-de-frais-d-achat",
+      "snippet": "s Calculer vos frais d'achat Immobilier Rechercher un testament use href=\"/themes/custom/not/assets/img/i",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "BOFiP RSS",
+      "source_role": "Doctrine fiscale officielle et flux de publications fiscales.",
+      "source_url": "https://bofip.impots.gouv.fr/flux-rss",
+      "title": "Flux RSS | bofip.impots.gouv.fr",
+      "url": "https://bofip.impots.gouv.fr/flux-rss",
+      "snippet": "",
+      "published_at": "",
+      "type": "page_title",
+      "score": 4
+    },
+    {
+      "source": "Service-Public logement",
+      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "title": "Contrat de location (bail)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N349",
+      "snippet": "Contrat de location (bail) a class",
+      "published_at": "",
+      "type": "link",
+      "score": 4
+    },
+    {
+      "source": "Service-Public logement",
+      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "title": "Obligations du bailleur",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31059",
+      "snippet": "Obligations du bailleur a",
+      "published_at": "",
+      "type": "link",
+      "score": 4
+    }
+  ],
+  "syntheses": [
+    {
+      "title": "Investissement locatif ou mise en location d'un logement vacant : simulation",
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "url": "https://www.anil.org/outil-mise-en-location-simulation-investissement-immobilier-rendement/",
+      "snippet": "Frais d'acquisition (dits frais de notaire) Coût d'une hypothèque Investissement locatif ou mise en location d'un logement vacant : simulation Plus value immobilière Révision de loyer img load",
+      "published_at": "",
+      "score": 11,
+      "angle": "Transformer le signal marche en consequence pratique pour l investisseur bailleur prive.",
+      "action": "Publier une synthese courte et ajouter des liens internes vers simulateur, villes et demande d information."
+    },
+    {
+      "title": "Nouvelle Parole d'expert : mon propriétaire peut-il augmenter mon loyer ?",
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "url": "https://www.anil.org/parole-expert-logement-location-bailleur-augmentation-loyer/",
+      "snippet": "\" Nouvelle Parole d'expert : mon propriétaire peut-il augmenter mon loyer ? 28 juillet 2026 Votre bailleur vous demande de payer un loyer plus conséquent ? L'augmentation du loyer dans le parc locatif privé par un bailleur peut être normale, mais elle est soumise à certaines règles. Alors...",
+      "published_at": "2026-07-28T12:00:00.000Z",
+      "score": 10,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    },
+    {
+      "title": "Nouvelle analyse juridique : Encadrement de l’évolution des loyers en zones tendues à compter du 1er août 2026",
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "url": "https://www.anil.org/analyse-juridique-encadrement-evolution-loyers-zones-tendues/",
+      "snippet": "\" Nouvelle analyse juridique : Encadrement de l’évolution des loyers en zones tendues à compter du 1er août 2026 23 juillet 2026 Le décret fixant pour les zones tendues le montant maximum d'évolution des loyers d'un logement nu ou meublé en cas de relocation ou de renouvellement du bail est...",
+      "published_at": "2026-07-23T12:00:00.000Z",
+      "score": 10,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    },
+    {
+      "title": "IRL : le nouvel indice du 2eme trimestre 2026 est publié",
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "url": "https://www.anil.org/actualites-evenements/details/irl-le-nouvel-indice-du-2eme-trimestre-2026-est-publie/",
+      "snippet": "\" IRL : le nouvel indice du 2eme trimestre 2026 est publié 12 juillet 2026 Le dernier indice de référence des loyers (IRL) a été publié au Journal Officiel du 12 juillet 2026. Lire l'actualité",
+      "published_at": "2026-07-12T12:00:00.000Z",
+      "score": 10,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    },
+    {
+      "title": "Comment résilier le bail de ma location ?",
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "url": "https://www.anil.org/parole-expert-logement-location/parole-expert-logement-location-resiliation-bail/",
+      "snippet": "outils-de-calcul/frais-dacquisition-dits-frais-de-notaire/\" Frais d'acquisition Je cherche une location, mais je n’ai pas de garant Comment résilier le bail de ma location ? Ferm",
+      "published_at": "",
+      "score": 7,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    },
+    {
+      "title": "Les indicateurs du plan Relance logement",
+      "source": "Ministere relance logement",
+      "source_role": "Dossier officiel sur la relance logement et le volet fiscal Jeanbrun.",
+      "source_url": "https://www.ecologie.gouv.fr/dossiers/plan-relance-logement",
+      "url": "https://www.info.gouv.fr/grand-dossier/relance-logement",
+      "snippet": "_suite_dsfr:grid_row\" Les indicateurs du plan Relance logement Suivez l’avancement du plan avec les autorisations de constructions sur le site du Gouvernement. =\"http://www.w3.org/2000/ \" height",
+      "published_at": "",
+      "score": 7,
+      "angle": "Transformer le signal marche en consequence pratique pour l investisseur bailleur prive.",
+      "action": "Publier une synthese courte et ajouter des liens internes vers simulateur, villes et demande d information."
+    },
+    {
+      "title": "Investissement locatif : quels sont les dispositifs ?",
+      "source": "Ministere relance logement",
+      "source_role": "Dossier officiel sur la relance logement et le volet fiscal Jeanbrun.",
+      "source_url": "https://www.ecologie.gouv.fr/dossiers/plan-relance-logement",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35782",
+      "snippet": "ance à horizon 2030, 2040 et 2050 - nouvelle fenêtre\" Les besoins en logements en France à horizon 2030, 2040 et 2050 Investissement locatif : quels sont les dispositifs ? Retour en haut de page /a",
+      "published_at": "",
+      "score": 7,
+      "angle": "Evaluer si ce signal merite une mise a jour de contenu ou une simple surveillance.",
+      "action": "Garder le sujet dans la veille et attendre une source officielle complementaire si besoin."
+    },
+    {
+      "title": "Aides à la rénovation énergétique",
+      "source": "Notaires de France actualites",
+      "source_role": "Conjoncture immobiliere, fiscalite patrimoniale et tendances notariales.",
+      "source_url": "https://www.notaires.fr/fr/actualites",
+      "url": "https://www.notaires.fr/fr/jenergise_mon_logement",
+      "snippet": "\"/fr/construire-et-amenager-au-quotidien\" Construire et aménager au quotidien Aides à la rénovation énergétique Actualités de l'immobilier div class=\"menu_link_",
+      "published_at": "",
+      "score": 7,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
+    },
+    {
+      "title": "Achat ou vente d'un logement",
+      "source": "Service-Public logement",
+      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N23245",
+      "snippet": "Achat ou vente d'un logement Aides financières p class=\"",
+      "published_at": "",
+      "score": 6,
+      "angle": "Transformer le signal marche en consequence pratique pour l investisseur bailleur prive.",
+      "action": "Publier une synthese courte et ajouter des liens internes vers simulateur, villes et demande d information."
+    },
+    {
+      "title": "Aides et prêts pour l'amélioration et la rénovation énergétique de l'habitat",
+      "source": "Service-Public logement",
+      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N321",
+      "snippet": "Aides et prêts pour l'amélioration et la rénovation énergétique de l'habitat Bail d’habitation p class=\"",
+      "published_at": "",
+      "score": 6,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
+    },
+    {
+      "title": "Parcours d'achat et de vente d'un bien immobilier",
+      "source": "Notaires de France actualites",
+      "source_role": "Conjoncture immobiliere, fiscalite patrimoniale et tendances notariales.",
+      "source_url": "https://www.notaires.fr/fr/actualites",
+      "url": "https://www.notaires.fr/fr/marche-de-limmobilier-parcours-dachat-et-de-vente",
+      "snippet": "enu-link-contentmain view-mode-default menu-dropdown menu-dropdown-1 menu-type-default\" Parcours d'achat et de vente d'un bien immobilier Acheter un bien immobilier",
+      "published_at": "",
+      "score": 5,
+      "angle": "Transformer le signal marche en consequence pratique pour l investisseur bailleur prive.",
+      "action": "Publier une synthese courte et ajouter des liens internes vers simulateur, villes et demande d information."
+    },
+    {
+      "title": "Calculer vos frais d'achat Immobilier",
+      "source": "Notaires de France actualites",
+      "source_role": "Conjoncture immobiliere, fiscalite patrimoniale et tendances notariales.",
+      "source_url": "https://www.notaires.fr/fr/actualites",
+      "url": "https://paris.notaires.fr/fr/outils-et-services/calcul-de-frais-d-achat",
+      "snippet": "s Calculer vos frais d'achat Immobilier Rechercher un testament use href=\"/themes/custom/not/assets/img/i",
+      "published_at": "",
+      "score": 5,
+      "angle": "Transformer le signal marche en consequence pratique pour l investisseur bailleur prive.",
+      "action": "Publier une synthese courte et ajouter des liens internes vers simulateur, villes et demande d information."
+    },
+    {
+      "title": "Flux RSS | bofip.impots.gouv.fr",
+      "source": "BOFiP RSS",
+      "source_role": "Doctrine fiscale officielle et flux de publications fiscales.",
+      "source_url": "https://bofip.impots.gouv.fr/flux-rss",
+      "url": "https://bofip.impots.gouv.fr/flux-rss",
+      "snippet": "",
+      "published_at": "",
+      "score": 4,
+      "angle": "Distinguer fait fiscal confirme, interpretation patrimoniale et point a verifier avant publication.",
+      "action": "Creer un brief fiscal source, puis relire manuellement les chiffres avant publication."
+    },
+    {
+      "title": "Contrat de location (bail)",
+      "source": "Service-Public logement",
+      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N349",
+      "snippet": "Contrat de location (bail) a class",
+      "published_at": "",
+      "score": 4,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    },
+    {
+      "title": "Obligations du bailleur",
+      "source": "Service-Public logement",
+      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
+      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31059",
+      "snippet": "Obligations du bailleur a",
+      "published_at": "",
+      "score": 4,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    }
+  ],
+  "editorial_rules": [
+    "Ne jamais copier un article source.",
+    "Citer les URL surveillees dans la synthese.",
+    "Separer les faits confirmes des interpretations commerciales.",
+    "Verifier manuellement les chiffres fiscaux avant publication.",
+    "Rejeter les resultats Jeanbrun qui concernent une personne publique et non le dispositif fiscal."
+  ]
+}
