@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-02T13:09:07.500Z",
+  "fetched_at": "2026-08-04T03:58:31.444Z",
   "keywords": [
     "loi jeanbrun",
     "dispositif jeanbrun",
@@ -31,9 +31,9 @@
   "coverage": {
     "sources_total": 12,
     "sources_ok": 11,
-    "candidates_total": 15,
-    "topics_total": 15,
-    "syntheses_total": 15
+    "candidates_total": 16,
+    "topics_total": 16,
+    "syntheses_total": 16
   },
   "sources": [
     {
@@ -43,7 +43,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 1086,
+      "elapsed_ms": 444,
       "content_type": "text/html; charset=utf-8",
       "candidates": [
         {
@@ -79,6 +79,14 @@
           "score": 10
         },
         {
+          "title": "Location d'un logement : de la signature du bail à la fin de la location",
+          "url": "https://www.anil.org/actualites-evenements/details/location-dun-logement-de-la-signature-du-bail-a-la-fin-de-la-location/",
+          "type": "link",
+          "snippet": "\" Location d'un logement : de la signature du bail à la fin de la location 03 août 2026 Signer un bail, emménager, vivre dans son logement, puis le quitter : une location est rythmée par plusieurs étapes importantes. Chacune répond à des règles précises et implique des droits et des obligations...",
+          "published_at": "2026-08-03T12:00:00.000Z",
+          "score": 8
+        },
+        {
           "title": "Comment résilier le bail de ma location ?",
           "url": "https://www.anil.org/parole-expert-logement-location/parole-expert-logement-location-resiliation-bail/",
           "type": "link",
@@ -95,7 +103,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 410,
+      "elapsed_ms": 267,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -115,7 +123,7 @@
       "priority": 4,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 901,
+      "elapsed_ms": 197,
       "content_type": "application/rss+xml;charset=UTF-8",
       "candidates": []
     },
@@ -126,7 +134,7 @@
       "priority": 4,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 1486,
+      "elapsed_ms": 702,
       "content_type": "text/html;charset=UTF-8",
       "candidates": [
         {
@@ -170,7 +178,7 @@
       "priority": 3,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 1316,
+      "elapsed_ms": 589,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     },
@@ -181,7 +189,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 1012,
+      "elapsed_ms": 467,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     },
@@ -192,7 +200,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 1174,
+      "elapsed_ms": 517,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -220,7 +228,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 1143,
+      "elapsed_ms": 339,
       "content_type": "text/html;charset=UTF-8",
       "candidates": []
     },
@@ -231,7 +239,7 @@
       "priority": 3,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 2012,
+      "elapsed_ms": 635,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -267,7 +275,7 @@
       "priority": 3,
       "ok": false,
       "status": 403,
-      "elapsed_ms": 929,
+      "elapsed_ms": 629,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     },
@@ -278,7 +286,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 1821,
+      "elapsed_ms": 2833,
       "content_type": "text/html;charset=UTF-8",
       "candidates": []
     },
@@ -289,7 +297,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 1605,
+      "elapsed_ms": 752,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     }
@@ -338,6 +346,17 @@
       "published_at": "2026-07-12T12:00:00.000Z",
       "type": "link",
       "score": 10
+    },
+    {
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "title": "Location d'un logement : de la signature du bail à la fin de la location",
+      "url": "https://www.anil.org/actualites-evenements/details/location-dun-logement-de-la-signature-du-bail-a-la-fin-de-la-location/",
+      "snippet": "\" Location d'un logement : de la signature du bail à la fin de la location 03 août 2026 Signer un bail, emménager, vivre dans son logement, puis le quitter : une location est rythmée par plusieurs étapes importantes. Chacune répond à des règles précises et implique des droits et des obligations...",
+      "published_at": "2026-08-03T12:00:00.000Z",
+      "type": "link",
+      "score": 8
     },
     {
       "source": "ANIL actualites",
@@ -507,6 +526,18 @@
       "snippet": "\" IRL : le nouvel indice du 2eme trimestre 2026 est publié 12 juillet 2026 Le dernier indice de référence des loyers (IRL) a été publié au Journal Officiel du 12 juillet 2026. Lire l'actualité",
       "published_at": "2026-07-12T12:00:00.000Z",
       "score": 10,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    },
+    {
+      "title": "Location d'un logement : de la signature du bail à la fin de la location",
+      "source": "ANIL actualites",
+      "source_role": "Actualites logement, loyers, analyses juridiques et outils pratiques.",
+      "source_url": "https://www.anil.org/actualites-evenements/",
+      "url": "https://www.anil.org/actualites-evenements/details/location-dun-logement-de-la-signature-du-bail-a-la-fin-de-la-location/",
+      "snippet": "\" Location d'un logement : de la signature du bail à la fin de la location 03 août 2026 Signer un bail, emménager, vivre dans son logement, puis le quitter : une location est rythmée par plusieurs étapes importantes. Chacune répond à des règles précises et implique des droits et des obligations...",
+      "published_at": "2026-08-03T12:00:00.000Z",
+      "score": 8,
       "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
       "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
     },
