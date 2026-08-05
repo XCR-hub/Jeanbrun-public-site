@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-04T03:58:31.444Z",
+  "fetched_at": "2026-08-05T05:41:30.723Z",
   "keywords": [
     "loi jeanbrun",
     "dispositif jeanbrun",
@@ -43,7 +43,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 444,
+      "elapsed_ms": 4649,
       "content_type": "text/html; charset=utf-8",
       "candidates": [
         {
@@ -103,7 +103,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 267,
+      "elapsed_ms": 2570,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -123,7 +123,7 @@
       "priority": 4,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 197,
+      "elapsed_ms": 2911,
       "content_type": "application/rss+xml;charset=UTF-8",
       "candidates": []
     },
@@ -134,7 +134,7 @@
       "priority": 4,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 702,
+      "elapsed_ms": 3599,
       "content_type": "text/html;charset=UTF-8",
       "candidates": [
         {
@@ -178,7 +178,7 @@
       "priority": 3,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 589,
+      "elapsed_ms": 3364,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     },
@@ -189,7 +189,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 467,
+      "elapsed_ms": 3274,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     },
@@ -200,7 +200,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 517,
+      "elapsed_ms": 3065,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -228,7 +228,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 339,
+      "elapsed_ms": 2998,
       "content_type": "text/html;charset=UTF-8",
       "candidates": []
     },
@@ -239,7 +239,7 @@
       "priority": 3,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 635,
+      "elapsed_ms": 4227,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -275,7 +275,7 @@
       "priority": 3,
       "ok": false,
       "status": 403,
-      "elapsed_ms": 629,
+      "elapsed_ms": 2992,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     },
@@ -286,7 +286,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 2833,
+      "elapsed_ms": 7375,
       "content_type": "text/html;charset=UTF-8",
       "candidates": []
     },
@@ -297,7 +297,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 752,
+      "elapsed_ms": 3628,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     }
