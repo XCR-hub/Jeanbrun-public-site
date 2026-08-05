@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-05T05:41:30.723Z",
+  "fetched_at": "2026-08-05T05:47:54.521Z",
   "keywords": [
     "loi jeanbrun",
     "dispositif jeanbrun",
@@ -30,10 +30,10 @@
   ],
   "coverage": {
     "sources_total": 12,
-    "sources_ok": 11,
-    "candidates_total": 16,
-    "topics_total": 16,
-    "syntheses_total": 16
+    "sources_ok": 12,
+    "candidates_total": 43,
+    "topics_total": 43,
+    "syntheses_total": 24
   },
   "sources": [
     {
@@ -43,7 +43,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 4649,
+      "elapsed_ms": 610,
       "content_type": "text/html; charset=utf-8",
       "candidates": [
         {
@@ -103,7 +103,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 2570,
+      "elapsed_ms": 382,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -123,7 +123,7 @@
       "priority": 4,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 2911,
+      "elapsed_ms": 569,
       "content_type": "application/rss+xml;charset=UTF-8",
       "candidates": []
     },
@@ -134,7 +134,7 @@
       "priority": 4,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 3599,
+      "elapsed_ms": 587,
       "content_type": "text/html;charset=UTF-8",
       "candidates": [
         {
@@ -178,7 +178,7 @@
       "priority": 3,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 3364,
+      "elapsed_ms": 424,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     },
@@ -189,7 +189,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 3274,
+      "elapsed_ms": 519,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     },
@@ -200,7 +200,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 3065,
+      "elapsed_ms": 260,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -228,7 +228,7 @@
       "priority": 5,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 2998,
+      "elapsed_ms": 415,
       "content_type": "text/html;charset=UTF-8",
       "candidates": []
     },
@@ -239,7 +239,7 @@
       "priority": 3,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 4227,
+      "elapsed_ms": 662,
       "content_type": "text/html; charset=UTF-8",
       "candidates": [
         {
@@ -269,15 +269,232 @@
       ]
     },
     {
-      "name": "economie.gouv.fr PTZ",
-      "url": "https://www.economie.gouv.fr/particuliers/emprunter-et-sassurer/pret-taux-zero-ptz-tout-ce-quil-faut-savoir",
+      "name": "Service-Public PTZ",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
       "role": "Aides nationales et dispositifs de financement.",
       "priority": 3,
-      "ok": false,
-      "status": 403,
-      "elapsed_ms": 2992,
-      "content_type": "text/html; charset=UTF-8",
-      "candidates": []
+      "ok": true,
+      "status": 200,
+      "elapsed_ms": 725,
+      "content_type": "text/html;charset=UTF-8",
+      "candidates": [
+        {
+          "title": "Argent - Impôts - Consommation",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19803",
+          "type": "link",
+          "snippet": "se\" id=\"breadcrumb-1\" Accueil Argent - Impôts - Consommation Crédit immobilier Prêt à taux zéro (PTZ ou PTZ+) div class=\" s",
+          "published_at": "",
+          "score": 7
+        },
+        {
+          "title": "d’un bail réel solidaire",
+          "url": "https://bofip.impots.gouv.fr/bofip/10982-PGP.html/identifiant%3DBOI-TVA-IMM-20-20-50-20190424",
+          "type": "link",
+          "snippet": "obilier. Vous ne devez pas avoir été propriétaire de votre résidence principale au cours des 2 années précédant le PTZ, ni avoir acquis de droits réels immobiliers de votre résidence principale dans le cadre d’un bail réel solidaire au cours des 2 années précédant le PTZ. Mais cette interdiction...",
+          "published_at": "",
+          "score": 7
+        },
+        {
+          "title": "Attestation sur l'honneur de l’acheteur relative au programme de travaux concomitant à l’achat d'un logement ancien (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R35386",
+          "type": "link",
+          "snippet": "odèle de document Attestation sur l'honneur de l’acheteur relative au programme de travaux concomitant à l’achat d'un logement ancien (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 7
+        },
+        {
+          "title": "Bail réel solidaire",
+          "url": "https://bofip.impots.gouv.fr/bofip/10982-PGP.html/identifiant%3DBOI-TVA-IMM-20-20-50-20190424",
+          "type": "link",
+          "snippet": "hargé du logement Bail réel solidaire Direction générale des finances publiques (DGFiP) span class=\"sp-",
+          "published_at": "",
+          "score": 7
+        },
+        {
+          "title": "Prêt à taux zéro (PTZ ou PTZ+) | Service Public",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+          "type": "page_title",
+          "snippet": "Le PTZ est un prêt accordé sans taux d'intérêt ou intérêts intercalaires, ni frais de dossier ou d'expertise. Le PTZ doit compléter un autre prêt immobilier.",
+          "published_at": "2026-02-13T12:00:00.000Z",
+          "score": 6
+        },
+        {
+          "title": "quartier prioritaire de la politique de la ville (QPV)",
+          "url": "https://entreprendre.service-public.gouv.fr/vosdroits/R46124",
+          "type": "link",
+          "snippet": "ssion sociale à la propriété (en TVA à taux réduit) Votre futur logement doit se situer : Soit dans ou à proximité d'un quartier prioritaire de la politique de la ville (QPV) Soit dans ou à proximité d'une zone ANRU .",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune",
+          "url": "https://www.service-public.gouv.fr/simulateur/calcul/zonePTZ",
+          "type": "link",
+          "snippet": "\" rowspan=\"1\" 94 050 € Un simulateur permet de connaître la zone à laquelle appartient la commune : Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune Offre de prêt émise jusqu'en mars 2025 Le span class=\"",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Code général des impôts : articles 256 à 257 bis",
+          "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069577/LEGISCTA000006179644/",
+          "type": "link",
+          "snippet": "Code général des impôts : articles 256 à 257 bis Définition d'un immeuble neuf après réalisation de travaux (2° du 2 du I de l'article 257) div da",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Calculer le montant du prêt à taux zéro (PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2974",
+          "type": "link",
+          "snippet": "eEnLigne_1\" Calculer le montant du prêt à taux zéro (PTZ) Simulateur span class=\"sp-icon --",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R66187",
+          "type": "link",
+          "snippet": "se\" Simulateur Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune Simulateur span class=\"sp-icon --",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Déclaration sur l'honneur (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42562",
+          "type": "link",
+          "snippet": "se\" Simulateur Déclaration sur l'honneur (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Attestation relative au montant et aux conditions de remboursement du prêt (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61654",
+          "type": "link",
+          "snippet": "odèle de document Attestation relative au montant et aux conditions de remboursement du prêt (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Attestation de non-délivrance d'un prêt ne portant pas intérêt par un autre établissement de crédit concourant au plan de financement (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61655",
+          "type": "link",
+          "snippet": "odèle de document Attestation de non-délivrance d'un prêt ne portant pas intérêt par un autre établissement de crédit concourant au plan de financement (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Emprunteur hébergé : attestation sur l'honneur de l'hébergeur (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52172",
+          "type": "link",
+          "snippet": "odèle de document Emprunteur hébergé : attestation sur l'honneur de l'hébergeur (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Attestation sur l'honneur sur des ressources de l'emprunteur rattaché à un foyer fiscal ou à ses parents (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61674",
+          "type": "link",
+          "snippet": "odèle de document Attestation sur l'honneur sur des ressources de l'emprunteur rattaché à un foyer fiscal ou à ses parents (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Attestation sur l'honneur conjointe relative à la garde des enfants (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61673",
+          "type": "link",
+          "snippet": "odèle de document Attestation sur l'honneur conjointe relative à la garde des enfants (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Déclaration d'exercice d'une activité professionnelle ou commerciale dans le logement financé à l'aide d'un prêt ne portant pas intérêt (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61672",
+          "type": "link",
+          "snippet": "odèle de document Déclaration d'exercice d'une activité professionnelle ou commerciale dans le logement financé à l'aide d'un prêt ne portant pas intérêt (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Attestation sur l’honneur du vendeur relative aux travaux concourant à la production ou à la livraison d’un immeuble neuf (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61770",
+          "type": "link",
+          "snippet": "odèle de document Attestation sur l’honneur du vendeur relative aux travaux concourant à la production ou à la livraison d’un immeuble neuf (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Attestation sur l’honneur de l’acheteur relative aux travaux concourant à la production ou à la livraison d’un immeuble neuf (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61799",
+          "type": "link",
+          "snippet": "odèle de document Attestation sur l’honneur de l’acheteur relative aux travaux concourant à la production ou à la livraison d’un immeuble neuf (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "VIR ou location-accession : attestation du vendeur relative au programme de travaux concomitant à l’achat d’un logement ancien (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49818",
+          "type": "link",
+          "snippet": "odèle de document VIR ou location-accession : attestation du vendeur relative au programme de travaux concomitant à l’achat d’un logement ancien (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "VIR ou location-accession : attestation de l'acheteur relative au programme de travaux concomitant à l’achat d’un logement ancien (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49819",
+          "type": "link",
+          "snippet": "odèle de document VIR ou location-accession : attestation de l'acheteur relative au programme de travaux concomitant à l’achat d’un logement ancien (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Achat d’un logement social : attestation de l’emprunteur relative à l’exclusion du financement de l’installation d’un chauffage à énergie fossile (à joindre à la demande de PTZ)",
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62225",
+          "type": "link",
+          "snippet": "odèle de document Achat d’un logement social : attestation de l’emprunteur relative à l’exclusion du financement de l’installation d’un chauffage à énergie fossile (à joindre à la demande de PTZ) Modèle de document Questio",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Le prêt à taux zéro, tout ce qu'il faut savoir",
+          "url": "https://www.economie.gouv.fr/particuliers/PTZ-pret-a-taux-zero",
+          "type": "link",
+          "snippet": "\"false\" Le prêt à taux zéro, tout ce qu'il faut savoir Ministère chargé de l'économie span class=\"sp-icon",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Zones de l'ANRU",
+          "url": "https://sig.ville.gouv.fr/atlas/ANRU",
+          "type": "link",
+          "snippet": "de l'économie Zones de l'ANRU Ministère chargé de la ville span class=\"sp-icon",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Prêt à taux zéro pour l'achat ou la construction d'un logement",
+          "url": "https://www.anil.org/pret-taux-zero/",
+          "type": "link",
+          "snippet": "e logement (Anil) Prêt à taux zéro pour l'achat ou la construction d'un logement Agence nationale pour l'information sur le logement (Anil) sp",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Liste des établissements financiers pour obtenir un PTZ, PAS, prêt épargne logement...",
+          "url": "https://www.fgas.fr/web/site-public/etablissements-affilies",
+          "type": "link",
+          "snippet": "se\" Legifrance Liste des établissements financiers pour obtenir un PTZ, PAS, prêt épargne logement... Société de gestion des financements et de la garantie de l'accession sociale à la propriété (SGFGAS) div class=\"sp-panel-ope",
+          "published_at": "",
+          "score": 5
+        },
+        {
+          "title": "Décret n°2005-69 du 31 janvier 2005 relatif à l'achat ou la construction de logements en accession à la propriété",
+          "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000239755/",
+          "type": "link",
+          "snippet": "Décret n°2005-69 du 31 janvier 2005 relatif à l'achat ou la construction de logements en accession à la propriété a",
+          "published_at": "2005-01-31T12:00:00.000Z",
+          "score": 3
+        }
+      ]
     },
     {
       "name": "LCL Banque Privee Jeanbrun",
@@ -286,7 +503,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 7375,
+      "elapsed_ms": 834,
       "content_type": "text/html;charset=UTF-8",
       "candidates": []
     },
@@ -297,7 +514,7 @@
       "priority": 2,
       "ok": true,
       "status": 200,
-      "elapsed_ms": 3628,
+      "elapsed_ms": 897,
       "content_type": "text/html; charset=UTF-8",
       "candidates": []
     }
@@ -403,6 +620,61 @@
       "score": 7
     },
     {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Argent - Impôts - Consommation",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19803",
+      "snippet": "se\" id=\"breadcrumb-1\" Accueil Argent - Impôts - Consommation Crédit immobilier Prêt à taux zéro (PTZ ou PTZ+) div class=\" s",
+      "published_at": "",
+      "type": "link",
+      "score": 7
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "d’un bail réel solidaire",
+      "url": "https://bofip.impots.gouv.fr/bofip/10982-PGP.html/identifiant%3DBOI-TVA-IMM-20-20-50-20190424",
+      "snippet": "obilier. Vous ne devez pas avoir été propriétaire de votre résidence principale au cours des 2 années précédant le PTZ, ni avoir acquis de droits réels immobiliers de votre résidence principale dans le cadre d’un bail réel solidaire au cours des 2 années précédant le PTZ. Mais cette interdiction...",
+      "published_at": "",
+      "type": "link",
+      "score": 7
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Attestation sur l'honneur de l’acheteur relative au programme de travaux concomitant à l’achat d'un logement ancien (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R35386",
+      "snippet": "odèle de document Attestation sur l'honneur de l’acheteur relative au programme de travaux concomitant à l’achat d'un logement ancien (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 7
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Bail réel solidaire",
+      "url": "https://bofip.impots.gouv.fr/bofip/10982-PGP.html/identifiant%3DBOI-TVA-IMM-20-20-50-20190424",
+      "snippet": "hargé du logement Bail réel solidaire Direction générale des finances publiques (DGFiP) span class=\"sp-",
+      "published_at": "",
+      "type": "link",
+      "score": 7
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Prêt à taux zéro (PTZ ou PTZ+) | Service Public",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "snippet": "Le PTZ est un prêt accordé sans taux d'intérêt ou intérêts intercalaires, ni frais de dossier ou d'expertise. Le PTZ doit compléter un autre prêt immobilier.",
+      "published_at": "2026-02-13T12:00:00.000Z",
+      "type": "page_title",
+      "score": 6
+    },
+    {
       "source": "Service-Public logement",
       "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
       "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
@@ -447,6 +719,237 @@
       "score": 5
     },
     {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "quartier prioritaire de la politique de la ville (QPV)",
+      "url": "https://entreprendre.service-public.gouv.fr/vosdroits/R46124",
+      "snippet": "ssion sociale à la propriété (en TVA à taux réduit) Votre futur logement doit se situer : Soit dans ou à proximité d'un quartier prioritaire de la politique de la ville (QPV) Soit dans ou à proximité d'une zone ANRU .",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune",
+      "url": "https://www.service-public.gouv.fr/simulateur/calcul/zonePTZ",
+      "snippet": "\" rowspan=\"1\" 94 050 € Un simulateur permet de connaître la zone à laquelle appartient la commune : Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune Offre de prêt émise jusqu'en mars 2025 Le span class=\"",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Code général des impôts : articles 256 à 257 bis",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069577/LEGISCTA000006179644/",
+      "snippet": "Code général des impôts : articles 256 à 257 bis Définition d'un immeuble neuf après réalisation de travaux (2° du 2 du I de l'article 257) div da",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Calculer le montant du prêt à taux zéro (PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2974",
+      "snippet": "eEnLigne_1\" Calculer le montant du prêt à taux zéro (PTZ) Simulateur span class=\"sp-icon --",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R66187",
+      "snippet": "se\" Simulateur Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune Simulateur span class=\"sp-icon --",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Déclaration sur l'honneur (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42562",
+      "snippet": "se\" Simulateur Déclaration sur l'honneur (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Attestation relative au montant et aux conditions de remboursement du prêt (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61654",
+      "snippet": "odèle de document Attestation relative au montant et aux conditions de remboursement du prêt (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Attestation de non-délivrance d'un prêt ne portant pas intérêt par un autre établissement de crédit concourant au plan de financement (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61655",
+      "snippet": "odèle de document Attestation de non-délivrance d'un prêt ne portant pas intérêt par un autre établissement de crédit concourant au plan de financement (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Emprunteur hébergé : attestation sur l'honneur de l'hébergeur (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52172",
+      "snippet": "odèle de document Emprunteur hébergé : attestation sur l'honneur de l'hébergeur (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Attestation sur l'honneur sur des ressources de l'emprunteur rattaché à un foyer fiscal ou à ses parents (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61674",
+      "snippet": "odèle de document Attestation sur l'honneur sur des ressources de l'emprunteur rattaché à un foyer fiscal ou à ses parents (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Attestation sur l'honneur conjointe relative à la garde des enfants (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61673",
+      "snippet": "odèle de document Attestation sur l'honneur conjointe relative à la garde des enfants (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Déclaration d'exercice d'une activité professionnelle ou commerciale dans le logement financé à l'aide d'un prêt ne portant pas intérêt (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61672",
+      "snippet": "odèle de document Déclaration d'exercice d'une activité professionnelle ou commerciale dans le logement financé à l'aide d'un prêt ne portant pas intérêt (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Attestation sur l’honneur du vendeur relative aux travaux concourant à la production ou à la livraison d’un immeuble neuf (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61770",
+      "snippet": "odèle de document Attestation sur l’honneur du vendeur relative aux travaux concourant à la production ou à la livraison d’un immeuble neuf (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Attestation sur l’honneur de l’acheteur relative aux travaux concourant à la production ou à la livraison d’un immeuble neuf (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R61799",
+      "snippet": "odèle de document Attestation sur l’honneur de l’acheteur relative aux travaux concourant à la production ou à la livraison d’un immeuble neuf (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "VIR ou location-accession : attestation du vendeur relative au programme de travaux concomitant à l’achat d’un logement ancien (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49818",
+      "snippet": "odèle de document VIR ou location-accession : attestation du vendeur relative au programme de travaux concomitant à l’achat d’un logement ancien (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "VIR ou location-accession : attestation de l'acheteur relative au programme de travaux concomitant à l’achat d’un logement ancien (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49819",
+      "snippet": "odèle de document VIR ou location-accession : attestation de l'acheteur relative au programme de travaux concomitant à l’achat d’un logement ancien (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Achat d’un logement social : attestation de l’emprunteur relative à l’exclusion du financement de l’installation d’un chauffage à énergie fossile (à joindre à la demande de PTZ)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62225",
+      "snippet": "odèle de document Achat d’un logement social : attestation de l’emprunteur relative à l’exclusion du financement de l’installation d’un chauffage à énergie fossile (à joindre à la demande de PTZ) Modèle de document Questio",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Le prêt à taux zéro, tout ce qu'il faut savoir",
+      "url": "https://www.economie.gouv.fr/particuliers/PTZ-pret-a-taux-zero",
+      "snippet": "\"false\" Le prêt à taux zéro, tout ce qu'il faut savoir Ministère chargé de l'économie span class=\"sp-icon",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Zones de l'ANRU",
+      "url": "https://sig.ville.gouv.fr/atlas/ANRU",
+      "snippet": "de l'économie Zones de l'ANRU Ministère chargé de la ville span class=\"sp-icon",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Prêt à taux zéro pour l'achat ou la construction d'un logement",
+      "url": "https://www.anil.org/pret-taux-zero/",
+      "snippet": "e logement (Anil) Prêt à taux zéro pour l'achat ou la construction d'un logement Agence nationale pour l'information sur le logement (Anil) sp",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Liste des établissements financiers pour obtenir un PTZ, PAS, prêt épargne logement...",
+      "url": "https://www.fgas.fr/web/site-public/etablissements-affilies",
+      "snippet": "se\" Legifrance Liste des établissements financiers pour obtenir un PTZ, PAS, prêt épargne logement... Société de gestion des financements et de la garantie de l'accession sociale à la propriété (SGFGAS) div class=\"sp-panel-ope",
+      "published_at": "",
+      "type": "link",
+      "score": 5
+    },
+    {
       "source": "BOFiP RSS",
       "source_role": "Doctrine fiscale officielle et flux de publications fiscales.",
       "source_url": "https://bofip.impots.gouv.fr/flux-rss",
@@ -478,6 +981,17 @@
       "published_at": "",
       "type": "link",
       "score": 4
+    },
+    {
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "title": "Décret n°2005-69 du 31 janvier 2005 relatif à l'achat ou la construction de logements en accession à la propriété",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000239755/",
+      "snippet": "Décret n°2005-69 du 31 janvier 2005 relatif à l'achat ou la construction de logements en accession à la propriété a",
+      "published_at": "2005-01-31T12:00:00.000Z",
+      "type": "link",
+      "score": 3
     }
   ],
   "syntheses": [
@@ -590,6 +1104,66 @@
       "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
     },
     {
+      "title": "Argent - Impôts - Consommation",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N19803",
+      "snippet": "se\" id=\"breadcrumb-1\" Accueil Argent - Impôts - Consommation Crédit immobilier Prêt à taux zéro (PTZ ou PTZ+) div class=\" s",
+      "published_at": "",
+      "score": 7,
+      "angle": "Distinguer fait fiscal confirme, interpretation patrimoniale et point a verifier avant publication.",
+      "action": "Creer un brief fiscal source, puis relire manuellement les chiffres avant publication."
+    },
+    {
+      "title": "d’un bail réel solidaire",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://bofip.impots.gouv.fr/bofip/10982-PGP.html/identifiant%3DBOI-TVA-IMM-20-20-50-20190424",
+      "snippet": "obilier. Vous ne devez pas avoir été propriétaire de votre résidence principale au cours des 2 années précédant le PTZ, ni avoir acquis de droits réels immobiliers de votre résidence principale dans le cadre d’un bail réel solidaire au cours des 2 années précédant le PTZ. Mais cette interdiction...",
+      "published_at": "",
+      "score": 7,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    },
+    {
+      "title": "Attestation sur l'honneur de l’acheteur relative au programme de travaux concomitant à l’achat d'un logement ancien (à joindre à la demande de PTZ)",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R35386",
+      "snippet": "odèle de document Attestation sur l'honneur de l’acheteur relative au programme de travaux concomitant à l’achat d'un logement ancien (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "score": 7,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
+    },
+    {
+      "title": "Bail réel solidaire",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://bofip.impots.gouv.fr/bofip/10982-PGP.html/identifiant%3DBOI-TVA-IMM-20-20-50-20190424",
+      "snippet": "hargé du logement Bail réel solidaire Direction générale des finances publiques (DGFiP) span class=\"sp-",
+      "published_at": "",
+      "score": 7,
+      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
+      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+    },
+    {
+      "title": "Prêt à taux zéro (PTZ ou PTZ+) | Service Public",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "snippet": "Le PTZ est un prêt accordé sans taux d'intérêt ou intérêts intercalaires, ni frais de dossier ou d'expertise. Le PTZ doit compléter un autre prêt immobilier.",
+      "published_at": "2026-02-13T12:00:00.000Z",
+      "score": 6,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
+    },
+    {
       "title": "Achat ou vente d'un logement",
       "source": "Service-Public logement",
       "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
@@ -638,40 +1212,76 @@
       "action": "Publier une synthese courte et ajouter des liens internes vers simulateur, villes et demande d information."
     },
     {
-      "title": "Flux RSS | bofip.impots.gouv.fr",
-      "source": "BOFiP RSS",
-      "source_role": "Doctrine fiscale officielle et flux de publications fiscales.",
-      "source_url": "https://bofip.impots.gouv.fr/flux-rss",
-      "url": "https://bofip.impots.gouv.fr/flux-rss",
-      "snippet": "",
+      "title": "quartier prioritaire de la politique de la ville (QPV)",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://entreprendre.service-public.gouv.fr/vosdroits/R46124",
+      "snippet": "ssion sociale à la propriété (en TVA à taux réduit) Votre futur logement doit se situer : Soit dans ou à proximité d'un quartier prioritaire de la politique de la ville (QPV) Soit dans ou à proximité d'une zone ANRU .",
       "published_at": "",
-      "score": 4,
+      "score": 5,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
+    },
+    {
+      "title": "Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://www.service-public.gouv.fr/simulateur/calcul/zonePTZ",
+      "snippet": "\" rowspan=\"1\" 94 050 € Un simulateur permet de connaître la zone à laquelle appartient la commune : Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune Offre de prêt émise jusqu'en mars 2025 Le span class=\"",
+      "published_at": "",
+      "score": 5,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
+    },
+    {
+      "title": "Code général des impôts : articles 256 à 257 bis",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006069577/LEGISCTA000006179644/",
+      "snippet": "Code général des impôts : articles 256 à 257 bis Définition d'un immeuble neuf après réalisation de travaux (2° du 2 du I de l'article 257) div da",
+      "published_at": "",
+      "score": 5,
       "angle": "Distinguer fait fiscal confirme, interpretation patrimoniale et point a verifier avant publication.",
       "action": "Creer un brief fiscal source, puis relire manuellement les chiffres avant publication."
     },
     {
-      "title": "Contrat de location (bail)",
-      "source": "Service-Public logement",
-      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
-      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N349",
-      "snippet": "Contrat de location (bail) a class",
+      "title": "Calculer le montant du prêt à taux zéro (PTZ)",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2974",
+      "snippet": "eEnLigne_1\" Calculer le montant du prêt à taux zéro (PTZ) Simulateur span class=\"sp-icon --",
       "published_at": "",
-      "score": 4,
-      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
-      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+      "score": 5,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
     },
     {
-      "title": "Obligations du bailleur",
-      "source": "Service-Public logement",
-      "source_role": "Fiches pratiques publiques sur achat, location, bail, loyer et logement.",
-      "source_url": "https://www.service-public.fr/particuliers/vosdroits/N19808",
-      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N31059",
-      "snippet": "Obligations du bailleur a",
+      "title": "Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R66187",
+      "snippet": "se\" Simulateur Savoir si le prêt à taux zéro (PTZ) est possible dans votre commune Simulateur span class=\"sp-icon --",
       "published_at": "",
-      "score": 4,
-      "angle": "Verifier l impact sur les loyers plafonnes, le cash-flow et les hypotheses de simulation Jeanbrun.",
-      "action": "Mettre a jour une actualite loyers et ajouter une FAQ sur la difference entre loyer de marche, plafond Jeanbrun et revision IRL."
+      "score": 5,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
+    },
+    {
+      "title": "Déclaration sur l'honneur (à joindre à la demande de PTZ)",
+      "source": "Service-Public PTZ",
+      "source_role": "Aides nationales et dispositifs de financement.",
+      "source_url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10871",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42562",
+      "snippet": "se\" Simulateur Déclaration sur l'honneur (à joindre à la demande de PTZ) Modèle de document span class=\"sp-icon f",
+      "published_at": "",
+      "score": 5,
+      "angle": "Clarifier ce qui peut aider le financement sans promettre un cumul fiscal automatique.",
+      "action": "Produire une synthese aide/financement et relier vers les pages ville et programmes concernes."
     }
   ],
   "editorial_rules": [
